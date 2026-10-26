@@ -1,0 +1,4 @@
+modality,mean_abs_shap
+image (CNN embedding),0.014953316445354171
+operating condition,0.01318276319180842
+sensor features,0.20308363075533928

@@ -1,0 +1,5 @@
+setting,calibration,coverage,coverage_std,width,nominal
+femto->xjtu,3 labelled target bearings,0.897939780089871,0.08562469160888823,0.3339182299626363,0.9
+femto->xjtu,source bearings (no recalibration),0.8339377953621278,0.04758904295990976,0.29612474186286913,0.9
+xjtu->femto,3 labelled target bearings,0.8961485068603713,0.024939338415197066,0.2656222070962575,0.9
+xjtu->femto,source bearings (no recalibration),0.9114645460569913,0.08071578737749976,0.2882889270225126,0.9

@@ -1,0 +1,59 @@
+feature,mean_abs_shap,modality
+c0_band3,0.026912162868031227,sensor features
+c0_std,0.024678947020861274,sensor features
+c1_band5,0.016555785751848347,sensor features
+c1_band3,0.015613173130382005,sensor features
+rpm,0.009976354066950221,operating condition
+c0_band0,0.009428745085676973,sensor features
+c0_band7,0.0090014469948041,sensor features
+c1_band7,0.008882347551037947,sensor features
+c0_p2p,0.008877104721188288,sensor features
+c0_rms,0.007797396901312068,sensor features
+c1_band0,0.007652975433825505,sensor features
+c0_band5,0.007161807122502307,sensor features
+c1_spec_centroid,0.004676414103688475,sensor features
+c0_band4,0.00432249715632842,sensor features
+c0_kurt,0.004236415772840472,sensor features
+c1_band6,0.004019827992980198,sensor features
+c1_p2p,0.00396008020301334,sensor features
+c0_band6,0.0035867189980837814,sensor features
+c1_band4,0.0035826871425006586,sensor features
+c1_std,0.0033709335050671266,sensor features
+c0_band1,0.00325208468450655,sensor features
+load,0.0032064091248581983,operating condition
+c1_spec_entropy,0.0029395429870690787,sensor features
+c0_skew,0.0027995284867289283,sensor features
+img_pc0,0.0025554698336879536,image (CNN embedding)
+c0_band2,0.0023575417627511148,sensor features
+c1_rms,0.0022921914531501553,sensor features
+img_pc3,0.00228387801882762,image (CNN embedding)
+c1_kurt,0.001816993828959593,sensor features
+img_pc5,0.0017991404085315435,image (CNN embedding)
+c0_spec_entropy,0.0017443816759995193,sensor features
+c0_spec_centroid,0.001725762376055817,sensor features
+img_pc11,0.001721936482688894,image (CNN embedding)
+c1_band1,0.001362869329870511,sensor features
+c1_band2,0.0013568002324155866,sensor features
+c0_env_0_100,0.0012205926253030732,sensor features
+img_pc14,0.0009102792069570344,image (CNN embedding)
+c1_env_0_100,0.0008782024780789875,sensor features
+img_pc2,0.0008458448692828464,image (CNN embedding)
+c1_crest,0.000834144721462645,sensor features
+img_pc9,0.000800422657336547,image (CNN embedding)
+c1_env_600_1000,0.0007419916308915245,sensor features
+c1_skew,0.0006234160564579482,sensor features
+img_pc10,0.0006037544715231328,image (CNN embedding)
+c1_env_300_600,0.0005907725324145374,sensor features
+c0_env_300_600,0.0005752380310071597,sensor features
+img_pc7,0.0005638373984945467,image (CNN embedding)
+img_pc15,0.0004950938815414939,image (CNN embedding)
+img_pc6,0.00048728910812133775,image (CNN embedding)
+img_pc13,0.0004839870950616171,image (CNN embedding)
+c0_env_600_1000,0.0004644214310829826,sensor features
+img_pc8,0.00046014828203922505,image (CNN embedding)
+c0_env_100_300,0.00043414001071908714,sensor features
+c1_env_100_300,0.0003903807497973795,sensor features
+img_pc1,0.00037673322739688905,image (CNN embedding)
+c0_crest,0.00036516621464457446,sensor features
+img_pc12,0.0003066948955437723,image (CNN embedding)
+img_pc4,0.0002588066083197182,image (CNN embedding)

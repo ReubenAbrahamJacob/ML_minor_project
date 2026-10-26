@@ -1,0 +1,18 @@
+[project]
+name = "pdm-multimodal"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "lightgbm", "xgboost", "shap", "pywavelets",
+                "matplotlib", "torch", "torchvision", "pyyaml", "pytest", "ruff", "streamlit", "gdown", "certifi"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
+src = ["src"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+ignore = ["E731", "E741", "B023", "BLE001", "C408", "PERF102", "RUF015", "PLW1510"]

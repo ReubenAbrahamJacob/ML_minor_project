@@ -1,0 +1,36 @@
+# Bearing geometry and operating conditions. Unknowns are null (rule 4: never invent).
+cwru:
+  bearing: "SKF 6205-2RS (drive end)"
+  sampling_rate: 12000
+  geometry:
+    balls: 9
+    ball_diameter_in: 0.3126
+    pitch_diameter_in: 1.537
+    contact_angle_deg: 0
+    source: "CWRU Bearing Data Center, 'Bearing specifications' page (values recalled; page could not be fetched in this session)"
+    verified: false
+  # fault-frequency multiples of shaft speed listed by CWRU: BPFO 3.5848, BPFI 5.4152, BSF 4.7135, FTF 0.39828
+  rpm_by_load_hp: {0: 1797, 1: 1772, 2: 1750, 3: 1730}
+  classes: "Normal; fault diameter 0.007/0.014/0.021 in -> early/severe labels are an assumption (see README)"
+femto:
+  bearing: "PRONOSTIA test bench bearing"
+  sampling_rate: 25600
+  snapshot_samples: 2560      # 0.1 s every 10 s
+  snapshot_interval_s: 10
+  geometry: {balls: null, ball_diameter_mm: null, pitch_diameter_mm: null, contact_angle_deg: null,
+             source: "Nectoux et al., PHM 2012 challenge paper (not retrievable here)", verified: false}
+  conditions: {1: {rpm: 1800, load_n: 4000}, 2: {rpm: 1650, load_n: 4200}, 3: {rpm: 1500, load_n: 5000}}
+  conditions_verified: false  # from CLAUDE.md / dataset description, confirm against paper
+xjtu:
+  bearing: "LDK UER204"
+  sampling_rate: 25600
+  snapshot_samples: 32768     # 1.28 s every 60 s
+  snapshot_interval_s: 60
+  geometry: {balls: null, ball_diameter_mm: null, pitch_diameter_mm: null, contact_angle_deg: null,
+             source: "Wang et al., IEEE Trans. Reliability 2018 (not retrievable here)", verified: false}
+  conditions: {1: {rpm: 2100, load_kn: 12}, 2: {rpm: 2250, load_kn: 11}, 3: {rpm: 2400, load_kn: 10}}
+  conditions_verified: false
+cmapss:
+  sensors: 21
+  settings: 3
+  rul_cap_cycles: 125

@@ -1,0 +1,42 @@
+{
+  "run": "cmapss",
+  "time": "2026-10-27 03:50:22",
+  "git": "uncommitted",
+  "config": {
+    "seed": 0,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "pca_components": 16,
+    "rul_cap_life_fraction": 0.4,
+    "health_bins": [
+      0.6,
+      0.9
+    ],
+    "max_windows_per_bearing": 300,
+    "image_size": 224,
+    "cnn": "resnet18",
+    "lgbm": {
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_child_samples": 20,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "verbose": -1,
+      "n_jobs": 4
+    },
+    "alphas": [
+      0.2,
+      0.1,
+      0.05
+    ]
+  },
+  "rul_cap_cycles": 125.0,
+  "window": 30
+}

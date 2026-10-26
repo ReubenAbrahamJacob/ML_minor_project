@@ -1,0 +1,5 @@
+policy,mean_cost,failure_rate
+fixed_interval,3.4895359723782597,0.23529411764705882
+point_estimate,7.384009488245155,0.7058823529411765
+run_to_failure,10.0,1.0
+uncertainty_aware,1.3214548655995753,0.0

@@ -1,0 +1,7 @@
+# ASSUMED costs (arbitrary units) for the decision layer. Not measured data.
+planned_maintenance: 1.0
+unplanned_failure: 10.0
+waste_per_life_fraction: 1.0   # cost of throwing away 100% of life = 1.0 -> wasting x of life costs x
+lead_window: 0.08              # life fraction needed to schedule maintenance
+inspection_interval: 0.02      # life fraction between decisions
+fixed_interval_fraction: 0.5   # fixed policy replaces at 50% of mean training life
